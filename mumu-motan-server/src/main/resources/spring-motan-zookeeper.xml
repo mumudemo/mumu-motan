@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:motan="http://api.weibo.com/schema/motan"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+   http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd">
+
+    <!-- service implemention bean -->
+    <bean id="fooServiceImpl" class="com.lovecws.mumu.rpc.motan.service.impl.FooServiceImpl" />
+    <bean id="helloWorldServiceImpl" class="com.lovecws.mumu.rpc.motan.service.impl.HelloWorldServiceImpl" />
+
+
+    <motan:registry regProtocol="zookeeper" name="zookeeperRegistry" address="192.168.0.108:2181"/>
+
+    <motan:basicService id="zookeeperBasicService" export="8004" connectTimeout="2000" check="false"
+                        registry="zookeeperRegistry" throwException="true" group="babymm" module="babymm"/>
+
+    <!-- exporting service by motan -->
+    <motan:service interface="com.lovecws.mumu.rpc.motan.service.FooService" ref="fooServiceImpl"
+                   basicService="zookeeperBasicService"/>
+
+    <motan:service interface="com.lovecws.mumu.rpc.motan.service.HelloWorldService" ref="helloWorldServiceImpl"
+                   basicService="zookeeperBasicService"/>
+</beans>

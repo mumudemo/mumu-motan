@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mumu-motan.iml" filepath="$PROJECT_DIR$/mumu-motan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mumu-motan-api/mumu-motan-api.iml" filepath="$PROJECT_DIR$/mumu-motan-api/mumu-motan-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mumu-motan-client/mumu-motan-client.iml" filepath="$PROJECT_DIR$/mumu-motan-client/mumu-motan-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mumu-motan-server/mumu-motan-server.iml" filepath="$PROJECT_DIR$/mumu-motan-server/mumu-motan-server.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:motan="http://api.weibo.com/schema/motan"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+   http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd">
+
+    <!-- service implemention bean -->
+    <bean id="fooServiceImpl" class="com.lovecws.mumu.rpc.motan.service.impl.FooServiceImpl" />
+
+    <!-- exporting service by motan -->
+    <motan:service interface="com.lovecws.mumu.rpc.motan.service.FooService" ref="fooServiceImpl" export="8002"/>
+</beans>

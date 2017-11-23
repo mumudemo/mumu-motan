@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:motan="http://api.weibo.com/schema/motan"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+   http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd">
+
+    <!-- service implemention bean -->
+    <bean id="fooServiceImpl" class="com.lovecws.mumu.rpc.motan.service.impl.FooServiceImpl" />
+
+    <!-- motan register center -->
+    <motan:registry id="localRegistry" regProtocol="local" check="false"/>
+
+    <!-- protocol -->
+    <motan:protocol id="motanProtocol" default="true" name="motan"
+                    requestTimeout="220" maxServerConnection="80000" maxContentLength="1048576"
+                    maxWorkerThread="800" minWorkerThread="20"/>
+
+    <!-- 通用配置，多个rpc服务使用相同的基础配置. group和module定义具体的服务池。export格式为“protocol id:提供服务的端口”-->
+    <motan:basicService requestTimeout="220" export="motanProtocol:8002"
+                        group="motan-demo-rpc" accessLog="false" shareChannel="true" module="motan-demo-rpc"
+                        application="myMotanBenchmark" registry="localRegistry" id="serviceBasicConfig"/>
+
+    <!-- exporting service by motan -->
+    <motan:service interface="com.lovecws.mumu.rpc.motan.service.FooService" ref="fooServiceImpl" register="true" basicService="serviceBasicConfig"/>
+</beans>
