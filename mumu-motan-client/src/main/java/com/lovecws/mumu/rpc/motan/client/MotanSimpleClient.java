@@ -36,5 +36,7 @@ public class MotanSimpleClient {
         FooService fooService = refererConfig.getRef();
         String simple_motan_service = fooService.hello("simple motan service");
         System.out.println(simple_motan_service);
+        refererConfig.destroy();
+        System.exit(1);
     }
 }

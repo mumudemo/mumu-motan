@@ -16,6 +16,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/mumu_motan$MotanBenchmark_testString.coverage" NAME="MotanBenchmark.testString Coverage Results" MODIFIED="1511419724690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.lovecws.mumu.rpc.motan.client.*</FILTER>
+    </SUITE>
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
@@ -29,11 +34,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="MotanSimpleServer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/test/java/com/lovecws/mumu/rpc/motan/service/impl/MotanSimpleServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+            <state relative-caret-position="19">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NettyServer.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-transport-netty/0.3.0/motan-transport-netty-0.3.0.jar!/com/weibo/api/motan/transport/netty/NettyServer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-190">
+              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConsulRegistry.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-registry-consul/0.3.0/motan-registry-consul-0.3.0.jar!/com/weibo/api/motan/registry/consul/ConsulRegistry.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -91,6 +116,10 @@
         <option value="$PROJECT_DIR$/mumu-motan-client/pom.xml" />
         <option value="$PROJECT_DIR$/mumu-motan-server/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/mumu-motan-client/src/main/resources/spring-motan.xml" />
+        <option value="$PROJECT_DIR$/mumu-motan-client/src/main/java/com/lovecws/mumu/rpc/motan/client/MotanSimpleClient.java" />
+        <option value="$PROJECT_DIR$/mumu-motan-client/src/main/java/com/lovecws/mumu/rpc/motan/client/MotanLocalClient.java" />
+        <option value="$PROJECT_DIR$/mumu-motan-server/src/test/java/com/lovecws/mumu/rpc/motan/service/impl/MotanSimpleServer.java" />
       </list>
     </option>
   </component>
@@ -144,6 +173,65 @@
               <item name="mumu-motan" type="b2602c69:ProjectViewProjectNode" />
               <item name="mumu-motan" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mumu-motan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mumu-motan" type="462c0819:PsiDirectoryNode" />
+              <item name="mumu-motan-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mumu-motan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mumu-motan" type="462c0819:PsiDirectoryNode" />
+              <item name="mumu-motan-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mumu-motan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mumu-motan" type="462c0819:PsiDirectoryNode" />
+              <item name="mumu-motan-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mumu-motan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mumu-motan" type="462c0819:PsiDirectoryNode" />
+              <item name="mumu-motan-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mumu-motan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mumu-motan" type="462c0819:PsiDirectoryNode" />
+              <item name="mumu-motan-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mumu-motan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mumu-motan" type="462c0819:PsiDirectoryNode" />
+              <item name="mumu-motan-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mumu-motan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mumu-motan" type="462c0819:PsiDirectoryNode" />
+              <item name="mumu-motan-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mumu-motan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mumu-motan" type="462c0819:PsiDirectoryNode" />
+              <item name="mumu-motan-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -182,7 +270,114 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.clean">
+  <component name="RunManager" selected="JUnit.MotanBenchmark.testString">
+    <configuration name="MotanBenchmark" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lovecws.mumu.rpc.motan.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mumu-motan-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lovecws.mumu.rpc.motan.client" />
+      <option name="MAIN_CLASS_NAME" value="com.lovecws.mumu.rpc.motan.client.MotanBenchmark" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MotanBenchmark.testString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lovecws.mumu.rpc.motan.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mumu-motan-client" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.lovecws.mumu.rpc.motan.client" />
+      <option name="MAIN_CLASS_NAME" value="com.lovecws.mumu.rpc.motan.client.MotanBenchmark" />
+      <option name="METHOD_NAME" value="testString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MotanLocalClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lovecws.mumu.rpc.motan.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lovecws.mumu.rpc.motan.client.MotanLocalClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mumu-motan-client" />
+      <envs />
+    </configuration>
+    <configuration name="MotanLocalServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lovecws.mumu.rpc.motan.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lovecws.mumu.rpc.motan.service.impl.MotanLocalServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mumu-motan-server" />
+      <envs />
+    </configuration>
+    <configuration name="MotanSimpleClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.lovecws.mumu.rpc.motan.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.lovecws.mumu.rpc.motan.client.MotanSimpleClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mumu-motan-client" />
+      <envs />
+    </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -323,10 +518,24 @@
         </option>
       </MavenSettings>
     </configuration>
-    <list size="2">
+    <list size="7">
       <item index="0" class="java.lang.String" itemvalue="Maven.clean" />
       <item index="1" class="java.lang.String" itemvalue="Maven.mumu-rpc-motan" />
+      <item index="2" class="java.lang.String" itemvalue="Application.MotanLocalServer" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MotanLocalClient" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MotanSimpleClient" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MotanBenchmark" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.MotanBenchmark.testString" />
     </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MotanBenchmark.testString" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MotanBenchmark" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MotanLocalClient" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MotanLocalServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MotanSimpleClient" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -343,7 +552,7 @@
       <workItem from="1503968129861" duration="5037000" />
       <workItem from="1503973481091" duration="3000" />
       <workItem from="1511408176725" duration="505000" />
-      <workItem from="1511408759028" duration="409000" />
+      <workItem from="1511408759028" duration="4268000" />
     </task>
     <task id="LOCAL-00001" summary="编写README.md">
       <created>1503913154208</created>
@@ -363,19 +572,13 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MotanBenchmark - 2017.08.29 at 09h 39m 18s.xml">
-      <configuration name="MotanBenchmark" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MotanBenchmark - 2017.08.29 at 09h 39m 23s.xml">
-      <configuration name="MotanBenchmark" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="MotanBenchmark - 2017.08.29 at 09h 39m 32s.xml">
-      <configuration name="MotanBenchmark" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MotanBenchmark - 2017.08.29 at 09h 39m 37s.xml">
       <configuration name="MotanBenchmark" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MotanBenchmark - 2017.08.29 at 09h 40m 30s.xml">
+      <configuration name="MotanBenchmark" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MotanBenchmark - 2017.11.23 at 14h 09m 22s.xml">
       <configuration name="MotanBenchmark" configurationId="JUnit" />
     </history-entry>
     <history-entry file="MotanBenchmark_testEmptyString - 2017.08.29 at 09h 45m 45s.xml">
@@ -393,9 +596,15 @@
     <history-entry file="MotanBenchmark_testString - 2017.08.29 at 09h 46m 16s.xml">
       <configuration name="MotanBenchmark.testString" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="MotanBenchmark_testString - 2017.11.23 at 14h 14m 20s.xml">
+      <configuration name="MotanBenchmark.testString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MotanBenchmark_testString - 2017.11.23 at 14h 48m 58s.xml">
+      <configuration name="MotanBenchmark.testString" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23569000" />
+    <option name="totallyTimeSpent" value="27428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="8" width="1886" height="1039" extended-state="1" />
@@ -403,16 +612,17 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968238" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25903615" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -476,85 +686,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/config/ProtocolConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1676">
-          <caret line="42" column="23" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mumu-rpc-motan-server/src/main/META-INF/maven/com.weibo/motan-core/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/target/generated-sources/annotations/com/lovecws/mumu/rpc/motan/service/FooServiceAsync.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/META-INF/maven/com.weibo/motan-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="65" column="43" lean-forward="false" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/META-INF/services/com.weibo.api.motan.codec.Serialization">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" lean-forward="false" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/META-INF/services/javax.annotation.processing.Processor">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="55" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/codec/Serialization.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/common/URLParamType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1245">
-          <caret line="77" column="12" lean-forward="false" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/proxy/spi/JdkProxyFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/protocol/rpc/CompressRpcCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="49" column="13" lean-forward="false" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/protocol/rpc/DefaultRpcProtocol.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/config/RefererConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="81" column="129" lean-forward="false" selection-start-line="81" selection-start-column="117" selection-end-line="81" selection-end-column="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/codec/AbstractCodec.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/protocol/rpc/DefaultRpcCodec.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1501">
@@ -586,36 +717,6 @@
     <entry file="file://$PROJECT_DIR$/mumu-rpc-motan-client/src/test/java/com/lovecws/mumu/rpc/motan/benchmark/TestEmptyRunnable.java" />
     <entry file="file://$PROJECT_DIR$/mumu-rpc-motan-client/src/test/java/com/lovecws/mumu/rpc/motan/benchmark/RunnableStatistics.java" />
     <entry file="file://$PROJECT_DIR$/mumu-rpc-motan-client/src/test/java/com/lovecws/mumu/rpc/motan/benchmark/MotanBenchmarkClient.java" />
-    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/main/java/com/lovecws/mumu/rpc/motan/client/MotanSimpleClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/main/resources/spring-motan-local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/main/resources/spring-motan-zookeeper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/main/java/com/lovecws/mumu/rpc/motan/client/MotanLocalClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -626,20 +727,6 @@
     <entry file="file://$PROJECT_DIR$/mumu-rpc-motan-client/src/main/java/com/lovecws/mumu/rpc/motan/client/benchmark/MotanThread.java" />
     <entry file="file://$PROJECT_DIR$/mumu-rpc-motan-client/src/main/java/com/lovecws/mumu/rpc/motan/client/benchmark/MotanBenchmark.java" />
     <entry file="file://$PROJECT_DIR$/mumu-rpc-motan-client/src/test/java/com/lovecws/mumu/rpc/motan/benchmark/MotanThread.java" />
-    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/test/java/com/lovecws/mumu/rpc/motan/service/impl/MotanLocalServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/test/java/com/lovecws/mumu/rpc/motan/service/impl/MotanSimpleServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="15" column="36" lean-forward="false" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mumu-motan.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-513">
@@ -662,41 +749,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mumu-motan-api/src/main/java/com/lovecws/mumu/rpc/motan/service/FooService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mumu-motan-api/src/main/java/com/lovecws/mumu/rpc/motan/service/HelloWorldService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/main/java/com/lovecws/mumu/rpc/motan/service/impl/FooServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="5" lean-forward="false" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/main/resources/spring-motan.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/main/java/com/lovecws/mumu/rpc/motan/service/impl/HelloWorldServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -767,10 +823,196 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-api/src/main/java/com/lovecws/mumu/rpc/motan/service/FooService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/transport/ProviderMessageRouter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="49" column="24" lean-forward="true" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <caret line="29" column="41" lean-forward="false" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/config/RefererConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="160" column="29" lean-forward="false" selection-start-line="160" selection-start-column="29" selection-end-line="160" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/main/resources/spring-motan-local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/test/java/com/lovecws/mumu/rpc/motan/service/impl/MotanLocalServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/main/resources/spring-motan-local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="102" lean-forward="false" selection-start-line="8" selection-start-column="93" selection-end-line="8" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/main/java/com/lovecws/mumu/rpc/motan/client/MotanSimpleClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="31" column="29" lean-forward="false" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/main/java/com/lovecws/mumu/rpc/motan/client/MotanLocalClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="9" column="91" lean-forward="true" selection-start-line="9" selection-start-column="91" selection-end-line="9" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/main/resources/spring-motan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="77" lean-forward="false" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/test/java/com/lovecws/mumu/rpc/motan/client/MotanThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/test/java/com/lovecws/mumu/rpc/motan/client/MotanBenchmark.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="42" lean-forward="true" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/main/java/com/lovecws/mumu/rpc/motan/service/impl/FooServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/main/resources/spring-motan.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/main/resources/spring-motan-consul.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="117" lean-forward="false" selection-start-line="10" selection-start-column="103" selection-end-line="10" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/main/resources/spring-motan-consul.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-client/src/main/resources/spring-motan-zookeeper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/main/java/com/lovecws/mumu/rpc/motan/service/impl/HelloWorldServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/config/ServiceConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="69" column="53" lean-forward="false" selection-start-line="69" selection-start-column="46" selection-end-line="69" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-core/0.3.0/motan-core-0.3.0.jar!/com/weibo/api/motan/util/MotanSwitcherUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="29" column="23" lean-forward="false" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/test/java/com/lovecws/mumu/rpc/motan/service/impl/MotanZookeeperServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mumu-motan-server/src/test/java/com/lovecws/mumu/rpc/motan/service/impl/MotanSimpleServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-transport-netty/0.3.0/motan-transport-netty-0.3.0.jar!/com/weibo/api/motan/transport/netty/NettyServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-190">
+          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/weibo/motan-registry-consul/0.3.0/motan-registry-consul-0.3.0.jar!/com/weibo/api/motan/registry/consul/ConsulRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
         </state>
       </provider>
