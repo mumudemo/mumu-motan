@@ -6,14 +6,15 @@
    http://api.weibo.com/schema/motan http://api.weibo.com/schema/motan.xsd">
 
     <!-- service implemention bean -->
-    <bean id="fooServiceImpl" class="com.lovecws.mumu.rpc.motan.service.impl.FooServiceImpl" />
-    <bean id="helloWorldServiceImpl" class="com.lovecws.mumu.rpc.motan.service.impl.HelloWorldServiceImpl" />
+    <bean id="fooServiceImpl" class="com.lovecws.mumu.rpc.motan.service.impl.FooServiceImpl"/>
+    <bean id="helloWorldServiceImpl" class="com.lovecws.mumu.rpc.motan.service.impl.HelloWorldServiceImpl"/>
 
 
     <motan:registry regProtocol="zookeeper" name="zookeeperRegistry" address="192.168.0.108:2181"/>
 
     <motan:basicService id="zookeeperBasicService" export="8004" connectTimeout="2000" check="false"
-                        registry="zookeeperRegistry" throwException="true" group="babymm" module="babymm"/>
+                        registry="zookeeperRegistry" throwException="true" group="babymm" module="babymm"
+                        shareChannel="true"/>
 
     <!-- exporting service by motan -->
     <motan:service interface="com.lovecws.mumu.rpc.motan.service.FooService" ref="fooServiceImpl"

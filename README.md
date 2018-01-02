@@ -1,13 +1,13 @@
 # mumu-rpc-motan
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/babymm/mumu-rpc-motan/blob/master/LICENSE) [![Maven Central](https://img.shields.io/maven-central/v/com.weibo/motan.svg?label=Maven%20Central)](https://mvnrepository.com/search?q=motan) [![Build Status](https://img.shields.io/travis/weibocom/motan/master.svg?label=Build)](https://github.com/babymm/mumu-rpc-motan) [![OpenTracing-1.0 Badge](https://img.shields.io/badge/OpenTracing--1.0-enabled-blue.svg)](http://opentracing.io)
->[mumu-rpc-motan](https://github.com/babymm/mumu-rpc-motan)是一个以[weibo montan](https://github.com/weibocom/motan)为基础的测试程序，了解motan rpc架构设计和编程思想。同时也是想要多了解一些rpc框架，为项目做好rpc技术选型的准备。
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/babymm/mumu-motan/blob/master/LICENSE) [![Maven Central](https://img.shields.io/maven-central/v/com.weibo/motan.svg?label=Maven%20Central)](https://mvnrepository.com/search?q=motan) [![Build Status](https://img.shields.io/travis/weibocom/motan/master.svg?label=Build)](https://github.com/babymm/mumu-motan) [![OpenTracing-1.0 Badge](https://img.shields.io/badge/OpenTracing--1.0-enabled-blue.svg)](http://opentracing.io)
+>[mumu-motan](https://github.com/babymm/mumu-motan)是一个以[weibo montan](https://github.com/weibocom/motan)为基础的测试程序，了解motan rpc架构设计和编程思想。同时也是想要多了解一些rpc框架，为项目做好rpc技术选型的准备。
 
 # 项目简述
 > 周五夜晚登陆[github](https://github.com)闲来无事，偶然看到有个项目使用到了motan rpc框架，碰巧自己也一直在寻找一款比较适合本公司的rpc框架，所以抱着试试的心态，查看了一些相关的文档，不查不知道，一查吓一跳，motan尽然是新浪微博开源出来的一款内部使用的rpc调用框架，文中详细的描述了motan怎么好，怎么性能牛叉的，所以跃跃欲试的研究了几天，所以才有了这个测试项目。
 > 
 
 # 项目架构
-> mumu-rpc-motan项目一共分为三个模块，接口模板、服务端模块、客户端模块。
+> mumu-motan项目一共分为三个模块，接口模板、服务端模块、客户端模块。
 > 1. 接口模块主要定义一些接口，将接口单独抽取出来成为一个模快，主要是为了rpc调用。接口包括普通接口和异步调用接口，异步调用接口也就是在接口上添加@MotanAsync注解，然后在项目的pom中配置build-helper-maven-plugin插件，使用该插件生成异步调用的接口。至于具体的业务逻辑，请查看源码。
 > 2. 服务端模块包含各种方式开启rpc服务。
    > - 无注册中心模式，仅仅包含一些必要的配置信息，其他的全是使用motan默认值。
@@ -53,7 +53,6 @@ Client测试结果：
    - 客户端支持集群、负载均衡（activeWeight、configurableWeight、consistent、localFirst、random、roundrobin），避免单机宕机之后，服务不可用的问题。
    - rpc异常处理的比较好，当服务端调用发生异常的时候，会在客户端进行抛出，方便客户端进行bug追踪。
 ## 缺点
-   - 每导出一个服务都必须要指定一个接口，当服务比较多的时候，比较浪费端口号。
    - 异步调用集成方式比较麻烦，必须要使用maven的build-helper-maven-plugin插件来自动生成异步调用的接口。
 
 

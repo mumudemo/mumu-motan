@@ -23,4 +23,5 @@
 
     <!-- exporting service by motan -->
     <motan:service interface="com.lovecws.mumu.rpc.motan.service.FooService" ref="fooServiceImpl" register="true" basicService="serviceBasicConfig"/>
+    <motan:service interface="com.lovecws.mumu.rpc.motan.service.HelloWorldService" ref="helloWorldService" register="true" basicService="serviceBasicConfig"/>
 </beans>
